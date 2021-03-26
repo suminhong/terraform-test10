@@ -12,11 +12,3 @@ variable "public_or_private" {
     false = "private"
   }
 }
-
-variable "igw_only_public" {
-  type = map(any)
-  default = {
-    true  = 1
-    false = 0
-  }
-}
